@@ -3,14 +3,20 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {    
-  "build": "tailwindcss -i ./input.css -o ./css/main.css",
-  "watch": "tailwindcss -i ./input.css -o ./css/main.css --watch"
-},
+  "scripts": {
+    "build": "tailwindcss -i ./input.css -o ./css/main.css",
+    "watch": "tailwindcss -i ./input.css -o ./css/main.css --watch"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "tailwindcss": "^3.4.4"
+  },
+  "dependencies": {
+    "firebase": "^10.12.3",
+    "firebase-tools": "^13.13.1",
+    "node": "^18.20.4",
+    "nodejs": "^0.0.0"
   }
 }
