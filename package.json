@@ -16,6 +16,7 @@
   "dependencies": {
     "firebase": "^10.12.3",
     "firebase-tools": "^13.13.1",
+    "flowbite": "^2.4.1",
     "node": "^18.20.4",
     "nodejs": "^0.0.0"
   }

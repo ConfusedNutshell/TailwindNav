@@ -1,0 +1,53 @@
+[debug] [2024-07-10T13:58:09.622Z] ----------------------------------------------------------------------
+[debug] [2024-07-10T13:58:09.627Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\LukeHall_wup\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2024-07-10T13:58:09.627Z] CLI Version:   13.13.1
+[debug] [2024-07-10T13:58:09.627Z] Platform:      win32
+[debug] [2024-07-10T13:58:09.627Z] Node Version:  v20.9.0
+[debug] [2024-07-10T13:58:09.627Z] Time:          Wed Jul 10 2024 14:58:09 GMT+0100 (British Summer Time)
+[debug] [2024-07-10T13:58:09.628Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-07-10T13:58:09.637Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-07-10T13:58:09.638Z] > authorizing via signed-in user (qazaman48@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\LukeHall_wup\OneDrive - Touchstar Technologies Limited\Desktop\tailwind shop
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2024-07-10T13:58:22.933Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2024-07-10T13:58:23.469Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2024-07-10T13:58:23.469Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[info] i  Using project flashandminnie (FlashAndMinnie) 
+[info] 
+=== Hosting Setup
+[debug] [2024-07-10T13:58:25.718Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/flashandminnie [none]
+[debug] [2024-07-10T13:58:25.949Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/flashandminnie 200
+[debug] [2024-07-10T13:58:25.949Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/flashandminnie {"projectId":"flashandminnie","projectNumber":"139039702133","displayName":"FlashAndMinnie","name":"projects/flashandminnie","resources":{"hostingSite":"flashandminnie"},"state":"ACTIVE","etag":"1_575e5c25-5774-4035-a951-7ef3fbc1768d"}
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[debug] [2024-07-10T13:59:21.062Z] Error: Path contains invalid characters: C:\Users\LukeHall_wup\OneDrive - Touchstar Technologies Limited\Desktop\tailwind shop\C:\Users\LukeHall_wup\OneDrive - Touchstar Technologies Limited\Desktop\tailwind shop
+    at checkPath (C:\Users\LukeHall_wup\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\fs-extra\lib\mkdirs\utils.js:16:21)
+    at module.exports.makeDirSync (C:\Users\LukeHall_wup\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\fs-extra\lib\mkdirs\make-dir.js:21:3)
+    at Object.createFileSync (C:\Users\LukeHall_wup\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\fs-extra\lib\ensure\file.js:59:45)
+    at Config.writeProjectFile (C:\Users\LukeHall_wup\AppData\Roaming\npm\node_modules\firebase-tools\lib\config.js:159:12)
+    at C:\Users\LukeHall_wup\AppData\Roaming\npm\node_modules\firebase-tools\lib\config.js:183:22
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async doSetup (C:\Users\LukeHall_wup\AppData\Roaming\npm\node_modules\firebase-tools\lib\init\features\hosting\index.js:173:13)
+    at async init (C:\Users\LukeHall_wup\AppData\Roaming\npm\node_modules\firebase-tools\lib\init\index.js:40:9)
+[error] 
+[error] Error: An unexpected error has occurred.
